@@ -1,0 +1,24 @@
+.nav-container {
+    background-color: #fff;
+    height: 72px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.06);
+    .call-container {
+        width: 36px;
+        height: 36px;
+        background: #FFFFFF;
+        border: 1px solid #F2B304;
+        box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.06);
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    @media only screen and (max-width: 600px) {
+
+    }
+}

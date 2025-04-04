@@ -1,0 +1,102 @@
+.footer-container {
+    width: 100%;
+    .footer-wrapper {
+        margin: 15vh auto;
+        width: 80%;
+        h2 {
+            margin: 8vh 5vw;
+            /* Download our app now */
+            max-width: 518px;
+            height: 28px;
+            left: 168px;
+            top: 2025px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 28px;
+            /* identical to box height, or 78% */
+
+            color: #605F5F;
+        }
+        .footer-box {
+            /* Rectangle 34624842 */
+            margin-top: 200px;
+            box-sizing: border-box;
+            max-width: 1200px;
+            height: 265px;
+            position: relative;
+            background: #FFFFFF;
+            border: 1px solid rgba(238, 231, 231, 0.8);
+            box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.06);
+            border-radius: 18px;
+            .footer-img {
+                position: absolute;
+                bottom: 0;
+                left: 20px;
+                width: 400px;
+            }
+            .infoTxt {
+                width: 50%;
+                margin-top: 100px;
+                color: #605F5F;
+                // max-width: 586px;
+                padding-left: 450px;
+                position: relative;
+                > div {
+                    display: flex;
+                    height: 84px;
+                    text-wrap: wrap;
+                }
+            }
+            .app-store-icon-container {
+                position: absolute;
+                left: 450px;
+                > span {
+                    margin-right: 20px;
+                }
+            }
+
+        }
+    }
+    .copyright-section {
+         background: #222E34;
+         color: #DDDDDD;
+         height: 44px;
+         width: 100%;
+         text-align: center;
+         line-height: 44px;
+         margin-top: 4vh;
+         vertical-align: middle;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .footer-container {
+        .footer-wrapper {
+            width: 90%;
+            .footer-box {
+                height: 320px;
+                width: 100%;
+                .footer-img {
+                    bottom: 60px;
+                }
+                .infoTxt {
+                    > div {
+                        display: none;
+                    }
+                }
+                .app-store-icon-container {
+                    position: absolute;
+                    left: 20px;
+                    bottom: 0;
+                    > span {
+                        margin-right: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
